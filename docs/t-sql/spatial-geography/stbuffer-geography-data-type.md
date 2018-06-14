@@ -39,7 +39,7 @@ manager: craigg
   
 ## Arguments  
  *distance*  
- Is a value of type **float** (**double** in the .NET Framework) specifying the distance from the **geography** instance around which to calculate the buffer.  
+ Is a value of type **float** (**double** in the .NET Framework) specifying the distance in metres from the **geography** instance around which to calculate the buffer.  
   
  The maximum distance of the buffer cannot exceed 0.999 \* *π* * minorAxis \* minorAxis / majorAxis (~0.999 \* 1/2 Earth’s circumference) or the full globe.  
   
